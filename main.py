@@ -9,13 +9,13 @@ from logic.zoo_assistance import ZooAssistance
 def main():
     zoo = Zoo()
 
-    mufasa = Lion(name='Mufasa', gender=Gender.Male, weight=190.0, eats_per_day=10)
-    simba = Lion(name='Simba', gender=Gender.Male, weight=30.0, eats_per_day=2)
-    nala = Lion(name='Nala', gender=Gender.Female, weight=135.0, eats_per_day=5)
-    scar = Lion(name='Scar', gender=Gender.Male, weight=120.0, eats_per_day=4)
+    mufasa = Lion(name='Mufasa', gender=Gender.Male, weight=190.0, eats_per_day=10, teeth_length=5)
+    simba = Lion(name='Simba', gender=Gender.Male, weight=30.0, eats_per_day=2, teeth_length=1)
+    nala = Lion(name='Nala', gender=Gender.Female, weight=135.0, eats_per_day=5, teeth_length=3)
+    scar = Lion(name='Scar', gender=Gender.Male, weight=120.0, eats_per_day=4, teeth_length=4)
 
-    shere_khan = Tiger(name='Shere Khan', gender=Gender.Male, weight=250.0, eats_per_day=15)
-    diego = Tiger(name='Diego', gender=Gender.Male, weight=300.0, eats_per_day=25)
+    shere_khan = Tiger(name='Shere Khan', gender=Gender.Male, weight=250.0, eats_per_day=15, teeth_length=3)
+    diego = Tiger(name='Diego', gender=Gender.Male, weight=300.0, eats_per_day=25, teeth_length=15)
 
     zebra = Zebra(scientific_name='Equus zebra', gender=Gender.Male, weight=300.0, eats_per_day=46)
     zebra_hartmannae = Zebra(scientific_name='Equus zebra hartmannae', gender=Gender.Male, weight=320.0,

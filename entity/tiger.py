@@ -2,8 +2,8 @@ from entity.animal import CarnivoreAnimal, Gender
 
 
 class Tiger(CarnivoreAnimal):
-    def __init__(self, name='NoName', gender=Gender.Male, weight=5, eats_per_day=1):
-        super().__init__(weight, eats_per_day)
+    def __init__(self, name='NoName', gender=Gender.Male, weight=5, eats_per_day=1, teeth_length=1):
+        super().__init__(weight, eats_per_day, teeth_length)
         self.__name = name
         self.__gender = gender
 
